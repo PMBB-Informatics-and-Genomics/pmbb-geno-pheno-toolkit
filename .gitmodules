@@ -4,3 +4,6 @@
 [submodule "pmbb-nf-toolkit-gwama-meta-analysis"]
 	path = pmbb-nf-toolkit-gwama-meta-analysis
 	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-gwama-meta-analysis
+[submodule "Plink_2.0_gwas"]
+	path = Plink_2.0_gwas
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas
