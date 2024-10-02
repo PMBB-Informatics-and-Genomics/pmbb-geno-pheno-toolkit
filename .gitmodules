@@ -7,3 +7,4 @@
 [submodule "Saige_Family"]
 	path = Saige_Family
 	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family
+	branch = main 
