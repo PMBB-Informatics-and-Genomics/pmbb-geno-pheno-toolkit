@@ -4,3 +4,6 @@
 [submodule "Plink_2.0_gwas"]
 	path = Plink_2.0_gwas
 	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas
+[submodule "Saige_Family"]
+	path = Saige_Family
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family
