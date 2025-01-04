@@ -4,38 +4,30 @@ This repository holds sub-repositories for each of the modules we have developed
 
 # Our Pipelines:
 
-## Currently Published, Cluster and Cloud-Tested:
-- None yet, check back soon!
+## Currently Published + Cluster and AOU-Tested:
+- [GWAS with PLINK 2.0](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas)
+- [GWAMA for GWAS Meta-Analysis](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-gwama-meta-analysis)
+- [Meta-Analysis for ExWAS Results](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis)
 
-## Currently Published, Cluster-Tested:
-- SAIGE FAMILY
+## Currently Published + Cluster-Tested:
+- [SAIGE FAMILY](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
   - ExWAS
   - GWAS
   - Gene Burden PheWAS
   - Single Variant PheWAS
-- GWAS with Plink 2.0
-- GWAMA for GWAS Meta-Analysis
 - [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx)
 
 ## Coming Soon:
-- PRS-CSx for Multi-Ancestry PRS Development
+- Compute PGS with Plink `--score`
+- PLINK Clump
+- MetaXcan Pipelines
 
 ## Under Construction:
-- Meta-Analysis for ExWAS Results
 - LDSC Pipelines
   - Genetic Correlation
   - Heritability Estimation
   - Partitioned Heritability Estimation
-- Compute PGS with Plink `--score`
-- MetaXcan Pipelines
-
-# Getting Started:
-## Things to install/download:
-- Nextflow (version 23+)
-- Docker OR Singularity to make use of our containers
-- Other pipeline-specific things you may need to build/download, such as:
-  - LD Panels for PRS-CSx
-  - Loki for biofilter annotations
+- OMOP-based simple phenotyping
 
 ## How to Start Working with a Pipeline:
 1. Clone the sub-module for the pipeline you need
