@@ -1,0 +1,20 @@
+[submodule "gwama-meta-analysis"]
+	path = gwama-meta-analysis
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-gwama-meta-analysis
+	branch = main
+[submodule "plink_2.0_gwas"]
+	path = plink_2.0_gwas
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas
+	branch = main
+[submodule "saige_family"]
+	path = saige_family
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family
+	branch = main
+[submodule "exwas-meta-analysis"]
+	path = exwas-meta-analysis
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis
+	branch = main
+[submodule "prs-csx"]
+	path = prs-csx
+	url = https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx
+	branch = main
