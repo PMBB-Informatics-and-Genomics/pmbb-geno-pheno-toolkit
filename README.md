@@ -36,6 +36,6 @@ This repository holds sub-repositories for each of the modules we have developed
 
 ## Resources:
 - [Nextflow Hello World and Intermediate Crash Course (Google CoLab)](https://colab.research.google.com/drive/1j_2NXUYuspM79CnJngIohuzOy_X4G4qs?usp=sharing)
-- [Nextflow Hello Penguins: Real Data Exaple](https://drive.google.com/file/d/1yjGTaMOFiCmr99-bnsAJ01XcLA7xkWdB/view?usp=sharing)
+- [Nextflow Hello Penguins: Real Data Exaple](https://colab.research.google.com/drive/1yjGTaMOFiCmr99-bnsAJ01XcLA7xkWdB)
 - Demo of Setting Up a Pipeline <- under construction
 
