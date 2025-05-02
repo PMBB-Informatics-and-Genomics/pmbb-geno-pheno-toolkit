@@ -14,10 +14,10 @@ This repository has an overview of our sub-repositories for each of the modules 
 
 ## Currently Published + Cluster-Tested:
 - [SAIGE FAMILY](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
-  - ExWAS
-  - GWAS
-  - Gene Burden PheWAS
-  - Single Variant PheWAS
+  - [ExWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_ExWAS_docs.md)
+  - [GWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_GWAS_docs.md)
+  - [Gene Burden PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Gene_Burden_PheWAS_docs.md)
+  - [Single Variant PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Variant_PheWAS_docs.md)
 - [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx)
 - [Plink 2.0 Score for computing individual level polygenic scores](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score)
 
