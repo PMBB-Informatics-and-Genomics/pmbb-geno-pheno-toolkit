@@ -21,6 +21,7 @@ This repository has an overview of our sub-repositories for each of the modules 
   - [Single Variant PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Variant_PheWAS_docs.md)
 - [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx)
 - [Plink 2.0 Score for computing individual level polygenic scores](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score)
+- [Plink Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-clump) - Finding variants that belong to a GWAS signal via LD.
 
 ## Coming Soon:
 - Compute PGS with Plink `--score`
