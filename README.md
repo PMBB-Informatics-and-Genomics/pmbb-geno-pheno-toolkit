@@ -1,55 +1,50 @@
 # pmbb-geno-pheno-toolkit
 
-This repository has an overview of our sub-repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:
+This repository serves as a landing page of our repositories for each of the modules we have developed within the PMBB-Informatics working group. Contents include:
 - Links to repos
 - Example config files
 - Set-up instructions
 
 # Our Pipelines:
 
-## Currently Published + Cluster and AOU-Tested:
-- [GWAS with PLINK 2.0](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas)
-- [GWAMA for GWAS Meta-Analysis](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-gwama-meta-analysis)
-- [Meta-Analysis for ExWAS Results](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis)
+| Pipeline | Description | Local Cluster | AOU-tested | DNAnexus-tested | In-development |
+|----------|-------------|---------------|------------|-----------------|----------------|
+| [GWAS with PLINK 2.0](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas) | Genome-wide association studies using PLINK 2.0 | ✅ | ✅ | ❌ | ❌ |
+| [SAIGE ExWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_ExWAS_docs.md) | Exome-wide association studies using SAIGE | ✅ | ❌ | ❌ | ❌ |
+| [SAIGE GWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_GWAS_docs.md) | Genome-wide association studies using SAIGE | ✅ | ❌ | ❌ | ❌ |
+| [SAIGE GATE](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/5bcf1ea047af318269c7204f35b1dd17b8b087a7/READMEs/SAIGE-GATE_docs.md) | Genetic Analysis of Time-to-Event phenotypes | ✅ | ❌ | ❌ | ❌ |
+| [SAIGE Gene Burden PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Gene_Burden_PheWAS_docs.md) | Phenome-wide association studies using gene burden testing | ✅ | ❌ | ❌ | ❌ |
+| [SAIGE Single Variant PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Variant_PheWAS_docs.md) | Phenome-wide association studies for single variants | ✅ | ❌ | ❌ | ❌ |
+| [GWAS Meta-Analysis with GWAMA](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-gwama-meta-analysis) | Meta-analysis of GWAS results using GWAMA | ✅ | ✅ | ❌ | ❌ |
+| [ExWAS Meta-Analysis](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis) | Meta-analysis pipeline for ExWAS results | ✅ | ✅ | ❌ | ❌ |
+| [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Multi-ancestry polygenic risk score development | ✅ | ❌ | ❌ | ❌ |
+| [Compute PGS with Plink 2.0 Score](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score) | Computing polygenic scores using Plink score Function | ✅ | ❌ | ❌ | ❌ |
+| [PLINK Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Finding variants that belong to a GWAS signal via LD-based variant clumping | ✅ | ✅ | ❌ | ❌ |
+| MetaXcan Pipelines | Gene-based association testing pipelines | ❌ | ❌ | ❌ | ✅ |
+| LDSC Genetic Correlation | Genetic correlation analysis using LDSC | ❌ | ❌ | ❌ | ✅ |
+| LDSC Heritability Estimation | SNP-based heritability estimation | ❌ | ❌ | ❌ | ✅ |
+| LDSC Partitioned Heritability Estimation | Partitioned heritability analysis | ❌ | ❌ | ❌ | ✅ |
+| OMOP-based simple phenotyping | Simple phenotyping based on OMOP data model | ❌ | ❌ | ❌ | ✅ |
 
-## Currently Published + Cluster-Tested:
-- [SAIGE FAMILY](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family)
-  - [ExWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_ExWAS_docs.md)
-  - [GWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_GWAS_docs.md)
-  - [GATE](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/5bcf1ea047af318269c7204f35b1dd17b8b087a7/READMEs/SAIGE-GATE_docs.md) - Genetic Analysis of Time-to-Event phenotypes
-  - [Gene Burden PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Gene_Burden_PheWAS_docs.md)
-  - [Single Variant PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Variant_PheWAS_docs.md)
-- [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx)
-- [Plink 2.0 Score for computing individual level polygenic scores](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score)
-- [Plink Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-clump) - Finding variants that belong to a GWAS signal via LD.
+# Getting Started
 
-## Coming Soon:
-- Compute PGS with Plink `--score`
-- PLINK Clump
-- MetaXcan Pipelines
-
-## Under Construction:
-- LDSC Pipelines
-  - Genetic Correlation
-  - Heritability Estimation
-  - Partitioned Heritability Estimation
-- OMOP-based simple phenotyping
-
-# Getting Started:
-## Things to install/download:
-- Nextflow (version 23 is ideal)
-- Docker OR Singularity to make use of our containers
+## Setup - Install/download:
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- A text editor for updating the `nextflow.config` profile and the pipeline-specific `.config` file such as `vim` or `nano`
+- [Nextflow version 23.04.1.5866](https://www.nextflow.io/docs/latest/cli.html)
+- [Singularity version 3.8.3](https://sylabs.io/docs/) OR [Docker version 4.30.0](https://docs.docker.com/)
+- [JDK version 11.0.5](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 - Other pipeline-specific things you may need to build/download, such as:
   - LD Panels for PRS-CSx
   - Loki for biofilter annotations
 
-## How to Start Working with a Pipeline:
-1. Clone the sub-module for the pipeline you need
-2. Copy the pipeline-specific example `.config` file from [HERE](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/Example_Configs/) to the directory where you want to run the pipeline
-3. Edit the pipeline-specific `.config` file to include your desired parameters and data
-3. Set up a `nextflow.config` file with a profile for your compute system. We have an example for this as well [HERE](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/Example_Configs/nextflow.config). 
-4. Pro Tip: at the top of your `nextflow.config`, add a line: `includeConfig {pipeline}.config` with the relative path to your new `.config` file. The alternative is using the `-c` / `-config` flag when calling the pipeline.
-5. In order to run one of the workflows, you will use a command like this: `nextflow run /path/to/pmbb-nf-toolkit-{pipeline}/{pipeline}.nf`. More details can be found in module-specific READMEs
+## Overview of Steps to get started with one of our pipelines:
+1. Clone the desired pipeline's (a.k.a. module) git repo. 
+2. Set up a `nextflow.config` file with a profile for your compute system. An example for this can be found here: [Nextflow Config](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/Example_Configs/nextflow.config).
+  - After this `nextflow.config` file is set up once, it can be used for all of our pipelines. We recommend creating it once and symlinking it for each tool. 
+  - Note: Nextflow will ALWAYS look for (and expect) a `nextflow.config` in your running directory. 
+3. Create a pipeline-specific `.config` file specifying your parameters and input files. Examples can be found in our Pipeline-Specific [Example Config Files](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/Example_Configs/).
+4. Run the workflow using a command like this: `nextflow run /path/to/pmbb-nf-toolkit-{pipeline}/{pipeline}.nf`. More details can be found in module-specific READMEs
 
 ## Resources:
 - [PMBB Website](https://pmbb.med.upenn.edu/)
