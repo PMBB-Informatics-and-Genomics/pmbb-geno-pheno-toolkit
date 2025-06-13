@@ -10,11 +10,12 @@ This repository serves as a landing page of our repositories for each of the mod
 | Pipeline | Description | Local Cluster | AOU-tested | DNAnexus-tested | In-development |
 |----------|-------------|---------------|------------|-----------------|----------------|
 | [GWAS with PLINK 2.0](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-2.0-gwas) | Genome-wide association studies using PLINK 2.0 | ✅ | ✅ | ❌ | ❌ |
-| [SAIGE ExWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_ExWAS_docs.md) | Exome-wide association studies using SAIGE | ✅ | ❌ | ❌ | ❌ |
-| [SAIGE GWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_GWAS_docs.md) | Genome-wide association studies using SAIGE | ✅ | ❌ | ❌ | ❌ |
-| [SAIGE GATE](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/5bcf1ea047af318269c7204f35b1dd17b8b087a7/READMEs/SAIGE-GATE_docs.md) | Genetic Analysis of Time-to-Event phenotypes | ✅ | ❌ | ❌ | ❌ |
-| [SAIGE Gene Burden PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Gene_Burden_PheWAS_docs.md) | Phenome-wide association studies using gene burden testing | ✅ | ❌ | ❌ | ❌ |
-| [SAIGE Single Variant PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Variant_PheWAS_docs.md) | Phenome-wide association studies for single variants | ✅ | ❌ | ❌ | ❌ |
+| [SAIGE Family of Pipelines](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/tree/main) | SAIGE Family of Association Studies | ✅ | ✅ | ✅ | ✅ |
+| ├─[SAIGE ExWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_ExWAS_docs.md) | Exome-wide association studies using SAIGE | ✅ | ❌ | ❌ | ❌ |
+| ├─[SAIGE GWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/SAIGE_GWAS_docs.md) | Genome-wide association studies using SAIGE | ✅ | ❌ | ❌ | ❌ |
+| ├─[SAIGE GATE](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/5bcf1ea047af318269c7204f35b1dd17b8b087a7/READMEs/SAIGE-GATE_docs.md) | Genetic Analysis of Time-to-Event phenotypes | ✅ | ❌ | ❌ | ❌ |
+| ├─[SAIGE Gene Burden PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Gene_Burden_PheWAS_docs.md) | Phenome-wide association studies using gene burden testing | ✅ | ❌ | ❌ | ❌ |
+| └─[SAIGE Single Variant PheWAS](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-saige-family/blob/main/READMEs/Single-Variant_PheWAS_docs.md) | Phenome-wide association studies for single variants | ✅ | ❌ | ❌ | ❌ |
 | [GWAS Meta-Analysis with GWAMA](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-gwama-meta-analysis) | Meta-analysis of GWAS results using GWAMA | ✅ | ✅ | ❌ | ❌ |
 | [ExWAS Meta-Analysis](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis) | Meta-analysis pipeline for ExWAS results | ✅ | ✅ | ❌ | ❌ |
 | [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Multi-ancestry polygenic risk score development | ✅ | ❌ | ❌ | ❌ |
