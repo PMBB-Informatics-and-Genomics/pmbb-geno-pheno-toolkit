@@ -42,10 +42,10 @@ This repository serves as a landing page of our repositories for each of the mod
 
 ## Overview of Steps to get started with one of our pipelines:
 1. Clone the desired pipeline's (a.k.a. module) git repo. 
-2. Set up a `nextflow.config` file with a profile for your compute system. An example for this can be found here: [Nextflow Config](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/Example_Configs/nextflow.config).
+2. Set up a `nextflow.config` file with a profile for your compute system. An example for this can be found here: [Nextflow Config](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/blob/main/Example_Configs/nextflow.config).
   - After this `nextflow.config` file is set up once, it can be used for all of our pipelines. We recommend creating it once and symlinking it for each tool. 
   - Note: Nextflow will ALWAYS look for (and expect) a `nextflow.config` in your running directory. 
-3. Create a pipeline-specific `.config` file specifying your parameters and input files. Examples can be found in our Pipeline-Specific [Example Config Files](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/Example_Configs/).
+3. Create a pipeline-specific `.config` file specifying your parameters and input files. Examples can be found in our Pipeline-Specific [Example Config Files](https://github.com/PMBB-Informatics-and-Genomics/pmbb-geno-pheno-toolkit/tree/main/Example_Configs).
 4. Run the workflow using a command like this: `nextflow run /path/to/pmbb-nf-toolkit-{pipeline}/{pipeline}.nf`. More details can be found in module-specific READMEs
 
 ## Resources:
