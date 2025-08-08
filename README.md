@@ -20,7 +20,7 @@ This repository serves as a landing page of our repositories for each of the mod
 | [ExWAS Meta-Analysis](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis) | Meta-analysis pipeline for ExWAS results | ✅ | ✅ | ❌ | ❌ |
 | [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Multi-ancestry polygenic risk score development | ✅ | ❌ | ❌ | ❌ |
 | [Compute PGS with Plink 2.0 Score](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score) | Computing polygenic scores using Plink score Function | ✅ | ❌ | ❌ | ❌ |
-| [PLINK Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Finding variants that belong to a GWAS signal via LD-based variant clumping | ✅ | ✅ | ❌ | ❌ |
+| [PLINK Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-clump) | Finding variants that belong to a GWAS signal via LD-based variant clumping | ✅ | ✅ | ❌ | ❌ |
 | MetaXcan Pipelines | Gene-based association testing pipelines | ❌ | ❌ | ❌ | ✅ |
 | LDSC Genetic Correlation | Genetic correlation analysis using LDSC | ❌ | ❌ | ❌ | ✅ |
 | LDSC Heritability Estimation | SNP-based heritability estimation | ❌ | ❌ | ❌ | ✅ |
