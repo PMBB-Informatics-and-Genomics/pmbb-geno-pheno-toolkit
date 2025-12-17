@@ -20,7 +20,7 @@ This repository serves as a landing page of our repositories for each of the mod
 | [ExWAS Meta-Analysis](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-exwas-meta-analysis) | Meta-analysis pipeline for ExWAS results | ✅ | ✅ | ❌ | ❌ |
 | [PRS-CSx for Multi-Ancestry PRS Development](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Multi-ancestry polygenic risk score development | ✅ | ❌ | ❌ | ❌ |
 | [Compute PGS with Plink 2.0 Score](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score) | Computing polygenic scores using Plink score Function | ✅ | ❌ | ❌ | ❌ |
-| [PLINK Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-prs-csx) | Finding variants that belong to a GWAS signal via LD-based variant clumping | ✅ | ✅ | ❌ | ❌ |
+| [PLINK Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-clump) | Finding variants that belong to a GWAS signal via LD-based variant clumping | ✅ | ✅ | ❌ | ❌ |
 | MetaXcan Pipelines | Gene-based association testing pipelines | ❌ | ❌ | ❌ | ✅ |
 | LDSC Genetic Correlation | Genetic correlation analysis using LDSC | ❌ | ❌ | ❌ | ✅ |
 | LDSC Heritability Estimation | SNP-based heritability estimation | ❌ | ❌ | ❌ | ✅ |
@@ -33,7 +33,7 @@ This repository serves as a landing page of our repositories for each of the mod
 ## Setup - Install/download:
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - A text editor for updating the `nextflow.config` profile and the pipeline-specific `.config` file such as `vim` or `nano`
-- [Nextflow version 23.04.1.5866](https://www.nextflow.io/docs/latest/cli.html)
+- [Nextflow version 24.04.3](https://www.nextflow.io/docs/latest/cli.html)
 - [Singularity version 3.8.3](https://sylabs.io/docs/) OR [Docker version 4.30.0](https://docs.docker.com/)
 - [JDK version 11.0.5](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 - Other pipeline-specific things you may need to build/download, such as:
