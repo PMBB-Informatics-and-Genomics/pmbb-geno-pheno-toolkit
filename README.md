@@ -22,6 +22,7 @@ This repository serves as a landing page of our repositories for each of the mod
 | [Compute PGS with Plink 2.0 Score](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink2-score) | Computing polygenic scores using Plink score Function | ✅ | ✅ | ❌ | ❌ |
 | [PLINK Clump](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-plink-clump) | Finding variants that belong to a GWAS signal via LD-based variant clumping | ✅ | ✅ | ❌ | ❌ |
 | [VEP Annotation Pipeline](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-vep) | Variant Effect Predictor nextflow pipeline with chunking | ✅ | ❌ | ❌ | ✅ |
+| [Phenotyping Pipeline](https://github.com/PMBB-Informatics-and-Genomics/pmbb-nf-toolkit-phenotyping) | Modular Nextflow DSL2 phenotyping pipeline for biobanks. | ✅ | ✅ | ❌ | ❌ |
 | MetaXcan Pipelines | Gene-based association testing pipelines | ❌ | ❌ | ❌ | ✅ |
 | LDSC Genetic Correlation | Genetic correlation analysis using LDSC | ❌ | ❌ | ❌ | ✅ |
 | LDSC Heritability Estimation | SNP-based heritability estimation | ❌ | ❌ | ❌ | ✅ |
