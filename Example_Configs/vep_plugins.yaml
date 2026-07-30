@@ -1,0 +1,61 @@
+ref_fasta: "${vep_data_directory}/fastas/Homo_sapiens_assembly38_nochr.fasta"
+
+plugins:
+  alphamissense:
+    enabled: false
+    command: "--plugin AlphaMissense,file=${AM_PATH}"
+    variables:
+      AM_PATH: "${vep_data_directory}/alpha_missense/AlphaMissense_hg38.tsv.gz"
+  cadd:
+    enabled: false
+    command: "--plugin CADD,snv=${CADD_SNV},indels=${CADD_INDELS}"
+    variables:
+      CADD_SNV: "${vep_data_directory}/CADD_GRCh38/whole_genome_SNVs_inclAnno.tsv.gz"
+      CADD_INDELS: "${vep_data_directory}/CADD_GRCh38/gnomad.genomes.r4.0.indel_inclAnno.tsv.gz"
+  clinvar:
+    enabled: false
+    command: "--custom file=${CV_PATH},short_name=ClinVar,format=vcf,type=exact,fields=${CV_FIELDS}"
+    variables:
+      CV_PATH: "${vep_data_directory}/clinvar_GRCh38/clinvar.vcf.gz"
+      CV_FIELDS: "CLNSIG%CLNREVSTAT%CLNDN"
+  dbnsfp:
+    enabled: false
+    command: "--plugin dbNSFP,${DBNSFP_PATH},${DBNSFP_FEATURES}"
+    variables:
+      DBNSFP_PATH: "${vep_data_directory}/dbNSFP4.9a/dbNSFP4.9a_grch38.gz"
+      DBNSFP_FEATURES: "Ensembl_transcriptid,Uniprot_acc,VEP_canonical,LRT_pred,SIFT_pred,MutationTaster_pred,Polyphen2_HDIV_pred,Polyphen2_HVAR_pred,REVEL_score"
+  gnomad:
+    enabled: false
+    command: "--plugin gnomADc,${GNOMAD_FILE}"
+    variables:
+      GNOMAD_FILE: "${vep_data_directory}/gnomad/gnomad.ch.exomesv4.tabbed.tsv.gz"
+  loftee:
+    enabled: false
+    command: "--dir_plugins ${vep_data_directory}/Plugins --plugin LoF,loftee_path:${LOF_PATH},human_ancestor_fa:${LOF_ANC},conservation_file:${LOF_SQL},gerp_bigwig:${LOF_CON}"
+    variables:
+      LOF_PATH: "${vep_data_directory}/loftee_GRCh38"
+      LOF_ANC: "${vep_data_directory}/loftee_db_GRCh38/human_ancestor.fa.gz"
+      LOF_SQL: "${vep_data_directory}/loftee_db_GRCh38/loftee.sql"
+      LOF_CON: "${vep_data_directory}/loftee_db_GRCh38/gerp_conservation_scores.homo_sapiens.GRCh38.bw"
+  spliceai:
+    enabled: false
+    command: "--plugin SpliceAI,snv=${SNV_PATH},indel=${INDEL_PATH}"
+    variables:
+      SNV_PATH: "${vep_data_directory}/spliceai/spliceai_scores.raw.snv.hg38.vcf.gz"
+      INDEL_PATH: "${vep_data_directory}/spliceai/spliceai_scores.raw.indel.hg38.vcf.gz"
+  everything:
+    enabled: true
+    command: "--everything"
+
+group_files:
+  gnomad_af_col: "gnomADe_AF"
+  cadd_col: "CADD_PHRED"
+  cadd_raw_col: "CADD_RAW"
+  lof_col: "LoF"
+  consequence_col: "Consequence"
+  revel_col: "REVEL_score"
+  spliceai_pred_col: "SpliceAI_pred"
+  revel_threshold: 0.773
+  cadd_threshold: 28.1
+  spliceai_threshold: 0.2
+  gnomad_af_threshold: 0.01
