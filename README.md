@@ -27,7 +27,6 @@ This repository serves as a landing page of our repositories for each of the mod
 | LDSC Genetic Correlation | Genetic correlation analysis using LDSC | ❌ | ❌ | ❌ | ✅ |
 | LDSC Heritability Estimation | SNP-based heritability estimation | ❌ | ❌ | ❌ | ✅ |
 | LDSC Partitioned Heritability Estimation | Partitioned heritability analysis | ❌ | ❌ | ❌ | ✅ |
-| OMOP-based simple phenotyping | Simple phenotyping based on OMOP data model | ❌ | ❌ | ❌ | ✅ |
 
 
 # Getting Started
